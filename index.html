@@ -8,6 +8,40 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Sign-up Form</h1>
+    <div class="left-side">
+        <div class="banner">
+            <img src="img/logo.svg" alt="logo">
+            <h2>Arcan</h2>
+        </div>
+        <p class="copywrite">Photo by <a href="https://unsplash.com/@cindybartillon">Cindy Bartillon</a> on <a href="https://unsplash.com/">Unsplash</a></p>
+    </div>
+    <div class="right-side">
+        <div class="title">
+            <h1>Sign-up Form</h1>
+            <p>This may or may not be a real sign-up page. You will never know until you sign-up!</p>
+            <p>Sign-Up today for an unkown product at an unkown company!</p>
+        </div>
+        <div class="form">
+            <h2>Sign Up Below!</h2>
+            <form action="#" id="signup-form">
+                <label for="first">First Name</label>
+                <input type="text" id="first" name="first_name" required>
+                <label for="last">Last Name</label>
+                <input type="text" id="last" name="last_name" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="eamil" required>
+                <label for="password">Password</label>
+                <input type="password" id="password">
+                <label for="password-confirm">Confirm Password</label>
+                <input type="password" id="password-confirm">
+                <p class="message"></p>
+            </form>
+            <div class="submit">
+                <input type="submit" value="Create Account" form="signup-form">
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>
