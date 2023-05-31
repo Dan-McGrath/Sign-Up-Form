@@ -156,7 +156,7 @@ body {
   border: 1px solid hsl(27, 100%, 50%);
 }
 
-.submit input[type=submit] {
+.submit button {
   padding: 1.2rem;
   margin-left: 2rem;
   font-size: 3rem;
@@ -164,7 +164,7 @@ body {
   color: white;
   background-color: hsl(27, 100%, 50%);
 }
-.submit input[type=submit]:hover {
+.submit button:hover {
   background-color: hsl(27, 100%, 42%);
   cursor: pointer;
 }
@@ -199,7 +199,7 @@ body {
   .form form .input input {
     font-size: 2.5rem;
   }
-  .submit input[type=submit] {
+  .submit button {
     padding: 1rem;
     font-size: 2.5rem;
   }
@@ -230,7 +230,7 @@ body {
   .form form .input input {
     font-size: 2.2rem;
   }
-  .submit input[type=submit] {
+  .submit button {
     padding: 1rem;
     font-size: 2.5rem;
   }
@@ -270,7 +270,7 @@ body {
   .form form .input input {
     font-size: 2rem;
   }
-  .submit input[type=submit] {
+  .submit button {
     padding: 1rem;
     font-size: 2rem;
   }
