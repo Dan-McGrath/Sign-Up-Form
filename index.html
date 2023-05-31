@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-Up Form</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
 </head>
 <body>
     <div class="left-side">
@@ -37,7 +38,7 @@
         <div class="card">
            <div class="form">
                 <h2>Sign Up Now!</h2>
-                <form action="#" id="signup-form">
+                <form action="!#" id="signup-form" onsubmit="return validPassword()">
                     <div class="input">
                         <label for="first">First Name</label>
                         <input type="text" id="first" name="first_name" required>
@@ -54,9 +55,9 @@
                         <label for="phone">Phone Number</label>
                         <input type="tel" name="phone-number" id="phone">
                     </div>
-                    <div class="input">
+                    <div class="input" id="password">
                         <label for="password">Password</label>
-                        <input type="password" id="password">
+                        <input type="password" id="new-password" name="password">
                     </div>
                     <div class="input">
                         <label for="password-confirm">Confirm Password</label>
@@ -67,7 +68,7 @@
         </div>
         
             <div class="submit">
-                <input type="submit" value="Create Account" form="signup-form">
+                <button type="submit" form="signup-form">Create Account</button>
                 <p>Already have an account? <a href="#">Log in</a></p>
             </div>
     </div>
